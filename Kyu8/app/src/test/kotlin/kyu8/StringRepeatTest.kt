@@ -25,8 +25,10 @@ class StringRepeatTest {
     }
 }
 
+// Simple:
 fun repeatStr(r: Int, str: String) : String = str.repeat(r)
 
+// Manual:
 //fun repeatStr(r: Int, str: String) : String {
 //    var result = ""
 //    (1..r).forEach { _ ->

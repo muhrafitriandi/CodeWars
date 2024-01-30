@@ -12,6 +12,16 @@ class SquareSumTest {
     }
 }
 
-fun squareSum(n: Array<Int>): Int = n.sumOf { it * it }
+// Simple:
+//fun squareSum(n: Array<Int>): Int = n.sumOf { it * it }
+
+// Manual:
+fun squareSum(n: Array<Int>): Int {
+    var result = 0
+    n.forEach {
+        result += it * it
+    }
+    return result
+}
 
 // Square(n) Sum: https://www.codewars.com/kata/515e271a311df0350d00000f

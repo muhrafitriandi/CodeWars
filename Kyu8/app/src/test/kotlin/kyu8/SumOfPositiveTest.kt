@@ -14,6 +14,17 @@ class SumOfPositiveTest {
     }
 }
 
+// Simple:
 fun sum(numbers: IntArray): Int = numbers.filter { it > 0 }.sum()
+
+// Manual:
+//fun sum(numbers: IntArray): Int {
+//    var result = 0
+//
+//    numbers.forEach {
+//        if (it > 0) result += it
+//    }
+//    return result
+//}
 
 // Sum of Positive: https://www.codewars.com/kata/5715eaedb436cf5606000381

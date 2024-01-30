@@ -16,8 +16,10 @@ class GrassHopperTest {
 }
 
 object GrassHopper {
+    // Simple:
     fun summation(n: Int): Int = (1..n).sum()
 
+    // Manual:
 //    fun summation(n: Int): Int {
 //        var result = 0
 //        (1..n).forEach {
