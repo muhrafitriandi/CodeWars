@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb37eaa7-72fe-48a1-95bf-7ad05822c9cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/kyu8/EvenOrOddTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/Kyu8.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8 kyu/Kyu8/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/kyu8/MultiplyTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +57,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.EvenOrOddTest">
+  <component name="RunManager" selected="Gradle.MultiplyTest">
     <configuration name="EvenOrOddTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -82,6 +72,30 @@
             <option value=":app:test" />
             <option value="--tests" />
             <option value="&quot;kyu8.EvenOrOddTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiplyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;kyu8.MultiplyTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MultiplyTest" />
         <item itemvalue="Gradle.EvenOrOddTest" />
         <item itemvalue="Gradle.TestExample" />
         <item itemvalue="Kotlin.EvenOrOddKt" />
